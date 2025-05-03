@@ -6,7 +6,7 @@ require("./Database/data")
 app.use(express.json())
 
 
-app.use("/api/vooks", bookRoute)
+app.use("/api/books", bookRoute)
 
 
 app.listen(3000,function(){
